@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\fpga_pro\Project Probe\useless_pro\impact.xsl
+OUTFILE=D:\fpga_pro\Project Probe\useless_pro\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=D:\fpga_pro\Project Probe\useless_pro
+LICENSE=iMPACT
+USER_INFO=iMPACT

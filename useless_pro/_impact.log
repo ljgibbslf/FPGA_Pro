@@ -1,0 +1,16 @@
+iMPACT Version: 14.7
+
+iMPACT log file Started on Fri Jun 15 10:27:12 2018
+
+Welcome to iMPACT
+iMPACT Version: 14.7
+Project: D:\fpga_pro\Project Probe\useless_pro/\auto_project.ipf created.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : loadProjectFile -file "D:/fpga_pro/ProjectProbe/useless_pro/pro_1.ipf"
