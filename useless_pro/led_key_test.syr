@@ -114,7 +114,6 @@ Parsing module <led_key_test>.
 
 Elaborating module <led_key_test>.
 WARNING:HDLCompiler:413 - "D:\fpga_pro\Project Probe\useless_pro\led_key_test.v" Line 58: Result of 21-bit expression is truncated to fit in 20-bit target.
-WARNING:HDLCompiler:634 - "D:\fpga_pro\Project Probe\useless_pro\led_key_test.v" Line 33: Net <led_tmp[3]> does not have a driver.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -122,11 +121,10 @@ WARNING:HDLCompiler:634 - "D:\fpga_pro\Project Probe\useless_pro\led_key_test.v"
 
 Synthesizing Unit <led_key_test>.
     Related source file is "D:\fpga_pro\Project Probe\useless_pro\led_key_test.v".
-WARNING:Xst:653 - Signal <led_tmp<3:1>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 1-bit register for signal <led_tmp<0>>.
     Found 20-bit register for signal <clk_key>.
     Found 4-bit register for signal <key_scan>.
     Found 4-bit register for signal <key_scan_old>.
-    Found 1-bit register for signal <led_tmp<0>>.
     Found 20-bit adder for signal <clk_key[19]_GND_1_o_add_5_OUT> created at line 58.
     Summary:
 	inferred   1 Adder/Subtractor(s).
@@ -236,7 +234,8 @@ Primitive and Black Box Usage:
 # FlipFlops/Latches                : 25
 #      FD                          : 1
 #      FDC                         : 22
-#      FDE                         : 2
+#      FDE                         : 1
+#      FDPE                        : 1
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 6
@@ -301,7 +300,7 @@ Timing Summary:
 Speed Grade: -2
 
    Minimum period: 3.616ns (Maximum Frequency: 276.587MHz)
-   Minimum input arrival time before clock: 4.100ns
+   Minimum input arrival time before clock: 4.124ns
    Maximum output required time after clock: 4.162ns
    Maximum combinational path delay: No path found
 
@@ -350,23 +349,23 @@ Delay:               3.616ns (Levels of Logic = 18)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 24 / 23
+  Total number of paths / destination ports: 25 / 24
 -------------------------------------------------------------------------
-Offset:              4.100ns (Levels of Logic = 2)
+Offset:              4.124ns (Levels of Logic = 2)
   Source:            rst_n (PAD)
-  Destination:       clk_key_0 (FF)
+  Destination:       led_tmp_0 (FF)
   Destination Clock: clk rising
 
-  Data Path: rst_n to clk_key_0
+  Data Path: rst_n to led_tmp_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             2   1.328   0.725  rst_n_IBUF (rst_n_IBUF)
-     INV:I->O             22   0.255   1.333  rst_n_inv1_INV_0 (rst_n_inv)
-     FDC:CLR                   0.459          clk_key_0
+     INV:I->O             23   0.255   1.357  rst_n_inv1_INV_0 (rst_n_inv)
+     FDPE:PRE                  0.459          led_tmp_0
     ----------------------------------------
-    Total                      4.100ns (2.042ns logic, 2.058ns route)
-                                       (49.8% logic, 50.2% route)
+    Total                      4.124ns (2.042ns logic, 2.082ns route)
+                                       (49.5% logic, 50.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
@@ -381,7 +380,7 @@ Offset:              4.162ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q              2   0.525   0.725  led_tmp_0 (led_tmp_0)
+     FDPE:C->Q             2   0.525   0.725  led_tmp_0 (led_tmp_0)
      OBUF:I->O                 2.912          led_out_0_OBUF (led_out<0>)
     ----------------------------------------
     Total                      4.162ns (3.437ns logic, 0.725ns route)
@@ -404,13 +403,13 @@ clk            |    3.616|         |         |         |
 
 
 Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.95 secs
+Total CPU time to Xst completion: 7.11 secs
  
 --> 
 
 Total memory usage is 4522776 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   15 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

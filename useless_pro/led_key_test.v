@@ -85,12 +85,12 @@ wire[3:0] key_neg_detec = key_scan_old[3:0] & (~key_scan[3:0]);
 //-----------------------------------	
 //°´¼ü¿ØÖÆLED
 
-always@(posedge clk )
+always@(posedge clk or negedge rst_n)
 	begin
-		
-		if(key_neg_detec[0])
-            led_tmp[0] <= ~led_tmp[0];
-            
+		if(!rst_n)
+			led_tmp <= 4'b1111;
+		else if(key_neg_detec[0])
+			led_tmp[0] <= ~led_tmp[0];  
 	end
 
 assign led_out[0] = led_tmp[0];
