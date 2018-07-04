@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-06-15T13:53:16</DateModified>
+  <DateModified>2018-06-26T20:09:17</DateModified>
   <ModuleName>led_key_test</ModuleName>
   <SummaryTimeStamp>2018-06-15T13:53:14</SummaryTimeStamp>
   <SavedFilePath>D:/fpga_pro/Project Probe/useless_pro/iseconfig/led_key_test.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/fpga_pro/Project Probe/useless_pro</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>D:/fpga_pro/Project Probe/useless_pro\</ImplementationReportsDirectory>
   <DateInitialized>2018-06-15T09:38:50</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -8,40 +8,40 @@
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\fpga_pro\Project Probe\useless_pro\led_key_test.v" Line 58: Result of <arg fmt="%d" index="1">21</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">20</arg>-bit target.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">key_scan_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">key_scan_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">key_scan_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">key_scan_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">key_scan_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">key_scan_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">key_scan_old_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">key_scan_old_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">key_scan_old_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">key_scan_old_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">key_scan_old_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">key_scan_old_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">key_scan_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">key_scan_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">key_scan_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">key_scan_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">key_scan_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">key_scan_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">key_scan_old_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">key_scan_old_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">key_scan_old_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">key_scan_old_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">key_scan_old_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">key_scan_old_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">led_key_test</arg>&gt;.
 </msg>
 
 </messages>

@@ -1,0 +1,200 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:\fpga_pro\Project Probe\uart_IIC_pro
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+VRn4H6H=LoeUZXAjb??42e2
+04 8 4 work uart_clk fast 0
+=3-ccb0dafccc5f-5b28a715-1c2-2b3c
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z1 OL;O;10.2;57
+Z2 dD:\fpga_pro\Project Probe\uart_IIC_pro
+!s110 1529390869
+T_opt1
+VTB8C?OF0DDW70IhI06<AV0
+04 24 4 work tb_trans_ctl_stream_test fast 0
+04 4 4 work glbl fast 0
+=1-f01e34142dd7-5b3c8c47-1a3-1684
+o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+n@_opt1
+R1
+R2
+!s110 1530694729
+vaxi_fifo_stream
+I[IE]^FjUK`AV^K]gZYhVI0
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 dD:\Graduation\lab_project\18_7_Thz_sig_proc\fpga_proj\pro_refer\wavelet\ise
+w1454115156
+8ipcore_dir/axi_fifo_stream.v
+Fipcore_dir/axi_fifo_stream.v
+L0 39
+Z5 OL;L;10.2;57
+r1
+31
+Z6 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z7 !s110 1530697623
+!i10b 1
+!s100 >gW_Kn8[4bFC5]gAg_a<41
+!s85 0
+!s108 1530697623.034000
+!s107 ipcore_dir/axi_fifo_stream.v|
+!s90 -reportprogress|300|ipcore_dir/axi_fifo_stream.v|
+vclk_10M21M_exdes
+R7
+I0>8hM]b58dgE^QVLTY[Y;3
+R3
+R4
+w1451393536
+8ipcore_dir/clk_10M21M/example_design/clk_10M21M_exdes.v
+Fipcore_dir/clk_10M21M/example_design/clk_10M21M_exdes.v
+L0 59
+R5
+r1
+31
+R6
+nclk_10@m21@m_exdes
+!i10b 1
+!s100 ^SdHj:lEhm;Xj3i`iWz:U0
+!s85 0
+!s108 1530697623.271000
+!s107 ipcore_dir/clk_10M21M/example_design/clk_10M21M_exdes.v|
+!s90 -reportprogress|300|ipcore_dir/clk_10M21M/example_design/clk_10M21M_exdes.v|
+vdata_mover_ctl
+Z8 !s110 1530697622
+IC^CdZE71MeJL541kPA3>U1
+R3
+R4
+w1530680724
+8../rtl/data_mover_ctl.v
+F../rtl/data_mover_ctl.v
+L0 21
+R5
+r1
+31
+R6
+!i10b 1
+!s100 kC;Ef4DlBN<FiHl<kSez60
+!s85 0
+!s108 1530697622.806000
+!s107 ../rtl/data_mover_ctl.v|
+!s90 -reportprogress|300|../rtl/data_mover_ctl.v|
+vdata_mover_s2mm
+Ih8f`99WiP5jBJ3:;<CU;S3
+R3
+R4
+w1453962973
+8ipcore_dir/data_mover_s2mm_sim.v
+Fipcore_dir/data_mover_s2mm_sim.v
+L0 64
+R5
+r1
+31
+R6
+R8
+!i10b 1
+!s100 a3^DW]<A[8VgFD::EkInY1
+!s85 0
+!s108 1530697622.685000
+!s107 ipcore_dir/data_mover_s2mm_sim.v|
+!s90 -reportprogress|300|ipcore_dir/data_mover_s2mm_sim.v|
+vglbl
+R7
+!i10b 1
+!s100 V<`KW`8LXe32mQ2Gdj1MB2
+IF<9he?AP7?cZW6JPLLngH3
+R3
+R4
+w1381681120
+8D:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FD:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R5
+r1
+!s85 0
+31
+!s108 1530697623.386000
+!s107 D:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|D:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+R6
+vtb_data_mover_ctl_test
+R7
+I:2IIP6V6I?hH0cAi?]3W[0
+R3
+R4
+w1530697358
+8tb_data_mover_ctl_test.v
+Ftb_data_mover_ctl_test.v
+L0 25
+R5
+r1
+31
+R6
+!i10b 1
+!s100 h:4_mWXmO3RnH_h@[d8SJ1
+!s85 0
+!s108 1530697623.154000
+!s107 tb_data_mover_ctl_test.v|
+!s90 -reportprogress|300|tb_data_mover_ctl_test.v|
+vtb_trans_ctl_stream_test
+IzEOPAMgNWSLMB<zCUVce@1
+R3
+R4
+w1530693661
+8../testbench/tb_trans_ctl_stream_test.v
+F../testbench/tb_trans_ctl_stream_test.v
+L0 25
+R5
+r1
+31
+R6
+!s110 1530694726
+!i10b 1
+!s100 e0?78P<J;K<cUB:;Oh@lc1
+!s85 0
+!s108 1530694726.658000
+!s107 ../testbench/tb_trans_ctl_stream_test.v|
+!s90 -reportprogress|300|../testbench/tb_trans_ctl_stream_test.v|
+vtransfer_ctrl_to_stream
+R8
+Il[<1jfCNHLLfVD]<Gd6hS3
+R3
+R4
+w1530686778
+8../rtl/transfer_ctrl_to_stream.v
+F../rtl/transfer_ctrl_to_stream.v
+L0 23
+R5
+r1
+31
+R6
+!i10b 1
+!s100 ;TN5P;TNJFPG4do?PhkhQ2
+!s85 0
+!s108 1530697622.917000
+!s107 parameter.v|../rtl/transfer_ctrl_to_stream.v|
+!s90 -reportprogress|300|../rtl/transfer_ctrl_to_stream.v|
+vuart_clk
+I9@^kAd<S3`h77P;C28G]`2
+R3
+R2
+w1529394121
+8D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.v
+FD:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.v
+L0 21
+R5
+r1
+31
+o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 NlN[fB6zNMV8l2Ac06dJ91
+!s90 -reportprogress|300|-work|work|D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.v|
+!s110 1529394494
+!i10b 1
+!s85 0
+!s108 1529394494.769000
+!s107 D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.v|

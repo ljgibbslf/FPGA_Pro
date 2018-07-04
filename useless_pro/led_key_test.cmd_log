@@ -40,3 +40,4 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led_key_test.ucf -p xc6slx45-c
 map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_key_test_map.ncd led_key_test.ngd led_key_test.pcf 
 par -w -intstyle ise -ol high -mt off led_key_test_map.ncd led_key_test.ncd led_key_test.pcf 
 trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_key_test.twx led_key_test.ncd -o led_key_test.twr led_key_test.pcf -ucf led_key_test.ucf 
+xst -intstyle ise -ifn "D:/fpga_pro/Project Probe/useless_pro/led_key_test.xst" -ofn "D:/fpga_pro/Project Probe/useless_pro/led_key_test.syr" 

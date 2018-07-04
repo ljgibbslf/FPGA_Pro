@@ -70,6 +70,9 @@
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="led_key_test_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="led_key_test_xst.xrpt"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_4"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
@@ -80,6 +83,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1529028740" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1529028740">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1529028740" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2304302452335009743" xil_pn:start_ts="1529028740">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -105,14 +109,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1529042887" xil_pn:in_ck="-6299136153622197184" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-6879282367394611120" xil_pn:start_ts="1529042877">
+    <transform xil_pn:end_ts="1529676809" xil_pn:in_ck="-6299136153622197184" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-6879282367394611120" xil_pn:start_ts="1529676794">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="led_key_test.lso"/>
       <outfile xil_pn:name="led_key_test.ngc"/>
@@ -132,7 +132,8 @@
     <transform xil_pn:end_ts="1529042894" xil_pn:in_ck="4563034937663303946" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6922793215491048574" xil_pn:start_ts="1529042887">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="led_key_test.bld"/>
@@ -173,6 +174,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>

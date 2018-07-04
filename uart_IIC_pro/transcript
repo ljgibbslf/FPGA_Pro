@@ -1,0 +1,104 @@
+# Reading D:/modeltech64_10.2/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.2 Feb  2 2013 
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {uart_clk.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module uart_clk
+# ** Error: uart_clk.v(28): 'clk_out' already declared in this scope (uart_clk).
+# ** Error: D:/modeltech64_10.2/win64/vlog failed.
+# Error in macro ./uart_clk.fdo line 23
+# D:/modeltech64_10.2/win64/vlog failed.
+#     while executing
+# "vlog  "uart_clk.v""
+vlog -reportprogress 300 -work work {D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module uart_clk
+# 
+# Top level modules:
+# 	uart_clk
+vlog -reportprogress 300 -work work {D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module uart_clk
+# 
+# Top level modules:
+# 	uart_clk
+restart
+# No Design Loaded!
+vsim work.uart_testbench_2
+# vsim work.uart_testbench_2 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.uart_testbench_2(fast)
+vlog -reportprogress 300 -work work {D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module uart_clk
+# 
+# Top level modules:
+# 	uart_clk
+vlog -reportprogress 300 -work work {D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module uart_clk
+# 
+# Top level modules:
+# 	uart_clk
+vsim work.uart_testbench_2
+# vsim work.uart_testbench_2 
+# Loading work.uart_testbench_2(fast)
+add wave -position end sim:/uart_testbench_2/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: fan li  Hostname: LF-2IN1  ProcessID: 11068
+# 
+#           Attempting to use alternate WLF file "./wlfttdshe9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfttdshe9
+# 
+# (vish-4014) No objects found matching '/uart_testbench_2/*'.
+restart
+# Loading work.uart_testbench_2(fast)
+run -all
+restart
+# Loading work.uart_testbench_2(fast)
+vlog -reportprogress 300 -work work {D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module uart_clk
+# 
+# Top level modules:
+# 	uart_clk
+vsim -voptargs=+acc work.uart_testbench_2
+# vsim -voptargs=+acc work.uart_testbench_2 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.uart_testbench_2(fast)
+# Loading work.uart_clk(fast)
+restart
+# Loading work.uart_testbench_2(fast)
+# Loading work.uart_clk(fast)
+run -all
+add wave -position insertpoint  \
+sim:/uart_testbench_2/clk_out
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: fan li  Hostname: LF-2IN1  ProcessID: 11068
+# 
+#           Attempting to use alternate WLF file "./wlftdnbdsc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftdnbdsc
+# 
+run -all
+run -all
+add wave -position insertpoint  \
+sim:/uart_testbench_2/clk_50m
+run -all
+run -all

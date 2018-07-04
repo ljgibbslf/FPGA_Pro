@@ -1,0 +1,7 @@
+INFO:sim:172 - Generating IP...
+ERROR:sim - Unable to clean the temporary directory 'D:\fpga_pro\Project
+   Probe\my_ip_core_pro\ipcore_dir\tmp\_cg\' because it is being used by another
+   person, process, or program.  Close any processes or programs that might be
+   using this directory and try again.
+ERROR:sim - Failed to generate 'axi_ipc_test'.  
+Wrote CGP file for project 'axi_ipc_test'.

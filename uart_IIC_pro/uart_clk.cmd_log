@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.xst" -ofn "D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.syr" 
+xst -intstyle ise -ifn "D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.xst" -ofn "D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.syr" 
+xst -intstyle ise -ifn "D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.xst" -ofn "D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-2 "uart_clk.ngc" uart_clk.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_clk_map.ncd uart_clk.ngd uart_clk.pcf 
+par -w -intstyle ise -ol high -mt off uart_clk_map.ncd uart_clk.ncd uart_clk.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_clk.twx uart_clk.ncd -o uart_clk.twr uart_clk.pcf 
+xst -intstyle ise -ifn "D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.xst" -ofn "D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-2 "uart_clk.ngc" uart_clk.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_clk_map.ncd uart_clk.ngd uart_clk.pcf 
+par -w -intstyle ise -ol high -mt off uart_clk_map.ncd uart_clk.ncd uart_clk.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_clk.twx uart_clk.ncd -o uart_clk.twr uart_clk.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_IIC.ucf -p xc6slx45-csg324-2 "uart_clk.ngc" uart_clk.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_IIC.ucf -p xc6slx45-csg324-2 "uart_clk.ngc" uart_clk.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_clk_map.ncd uart_clk.ngd uart_clk.pcf 
+par -w -intstyle ise -ol high -mt off uart_clk_map.ncd uart_clk.ncd uart_clk.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_clk.twx uart_clk.ncd -o uart_clk.twr uart_clk.pcf -ucf uart_IIC.ucf 
+xst -intstyle ise -ifn "D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.xst" -ofn "D:/fpga_pro/Project Probe/uart_IIC_pro/uart_clk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_IIC.ucf -p xc6slx45-csg324-2 "uart_clk.ngc" uart_clk.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_clk_map.ncd uart_clk.ngd uart_clk.pcf 
+par -w -intstyle ise -ol high -mt off uart_clk_map.ncd uart_clk.ncd uart_clk.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_clk.twx uart_clk.ncd -o uart_clk.twr uart_clk.pcf -ucf uart_IIC.ucf 
