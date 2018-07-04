@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company:        SHU
+// Engineer:       ljgibbs@i.shu.edu.cn
 // 
 // Create Date:    16:37:12 06/15/2018 
 // Design Name: 
@@ -19,6 +19,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module uart_clk(
+    input rst_n,
     input clk_50m,
     output reg clk_out
     );
@@ -27,9 +28,14 @@ module uart_clk(
 reg[15:0] counter=0;
 
   
-always@(posedge clk_50m)
+always@(posedge clk_50m or negedge rst_n)
 begin
-    if(counter == 16'd162)
+    if (~rst_n)
+    begin
+        clk_out <= 1'b0;
+        counter <= 16'd0;
+    end
+    else if(counter == 16'd162)
     begin
         clk_out <= 1'b1;
         counter <= counter + 16'd1;
